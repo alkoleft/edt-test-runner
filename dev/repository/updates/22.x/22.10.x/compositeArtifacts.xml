@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeArtifactRepository version='1.0.0'?>
-<repository name='${child2.site.composite.name}' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+<repository name='EDT test runner repository. 22.10.x' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1668519438119'/>
+    <property name='p2.timestamp' value='1668520484161'/>
     <property name='p2.atomic.composite.loading' value='false'/>
   </properties>
-  <children size='2'>
+  <children size='3'>
     <child location='../../../releases/22.10.0.v202211151235'/>
     <child location='../../../releases/22.10.0.v202211151336'/>
+    <child location='../../../releases/22.10.0.v202211151348'/>
   </children>
 </repository>
