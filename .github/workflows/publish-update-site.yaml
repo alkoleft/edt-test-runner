@@ -25,10 +25,7 @@ jobs:
           java-package: jdk+fx # нужен FX
           architecture: x64
           cache: 'maven'
-          server-id: dt_repository # реджестри пакетов 1С
-          server-username: ${{ secrets.MAVEN_USERNAME }} # храниться в секретах
-          server-password: ${{ secrets.MAVEN_CENTRAL_TOKEN }} # храниться в секретах в открытом виде
-      
+    
       - name: Get latest GitHub Pages
         run: |
           wget https://github.com/${{ github.repository }}/archive/gh-pages.zip
